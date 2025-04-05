@@ -5,6 +5,8 @@ VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repaso_Week1_Bootcam_Csharp", "Repaso_Week1_Bootcam_Csharp\Repaso_Week1_Bootcam_Csharp.csproj", "{F9F18EBF-6CDB-44C2-9D57-35D0403EB459}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhiteLoop", "WhiteLoop\WhiteLoop.csproj", "{9C81A444-E161-4D7B-9D74-A20EBD00BBE9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{F9F18EBF-6CDB-44C2-9D57-35D0403EB459}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9F18EBF-6CDB-44C2-9D57-35D0403EB459}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9F18EBF-6CDB-44C2-9D57-35D0403EB459}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C81A444-E161-4D7B-9D74-A20EBD00BBE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C81A444-E161-4D7B-9D74-A20EBD00BBE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C81A444-E161-4D7B-9D74-A20EBD00BBE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C81A444-E161-4D7B-9D74-A20EBD00BBE9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
