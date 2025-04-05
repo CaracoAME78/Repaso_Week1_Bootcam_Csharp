@@ -74,7 +74,7 @@
         Console.WriteLine("   CÁLCULO DE ÁREAS              ");
         Console.WriteLine("=================================");
         Console.WriteLine("1. Área del Círculo");
-        Console.WriteLine("2. Área del Cuadrado");
+        Console.WriteLine("2. Área del Rectangulo");
         Console.Write("Seleccione una opción (1 o 2): ");
         opcion = int.Parse(Console.ReadLine());
 
@@ -88,10 +88,13 @@
                 break;
 
             case 2:
-                Console.Write("Ingrese el lado del cuadrado: ");
+                Console.Write("Ingrese el largo del rectangulo: ");
                 double lado = double.Parse(Console.ReadLine());
-                area = Math.Pow(lado, 2);
-                Console.WriteLine($"El área del cuadrado es: {area:F2}");
+                Console.Write("Ingrese el ancho del rectangulo: ");
+                double ancho = double.Parse(Console.ReadLine());
+
+                area = lado*ancho;
+                Console.WriteLine($"El área del rectangulo es: {area:F2}");
                 break;
 
             default:
