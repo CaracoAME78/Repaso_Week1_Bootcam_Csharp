@@ -61,6 +61,7 @@
 
         // Ejercicio 3 Bucle
 
+
         int filas = 5;
         int i = 1;
 
@@ -88,6 +89,12 @@
             i++;
         }
 
-
+        // Ejemplos de Do ... While
+        int contadorDo = 1;
+        do
+        {
+            Console.WriteLine(contadorDo);
+            contadorDo++;
+        }while (contadorDo <= 6);
     }
 }
