@@ -24,5 +24,43 @@
 
             contadorTabla++;
         }
+
+        // Ejercicio Bucle anidado : Imprimir cuadrado de numeros del 1 al 5
+
+        int fila=1;
+        int columna;
+
+        while (fila <= 5)
+        {
+            columna = 1;
+            while (columna <= 5)
+            {
+                Console.Write(columna+" ");
+                columna++;
+            }
+            Console.WriteLine();
+            fila++;
+        }
+
+        // Ejercicio 2 Bucle
+        
+        int fila1 = 1;
+        int columna1;
+
+        while (fila1 <= 5)
+        {
+            columna1 = 1;
+            while (columna1 <= fila1 )
+            {
+                Console.Write(columna1);
+                columna1++;
+            }
+            Console.WriteLine();
+            fila1++;
+        }
+
+
+
+
     }
 }
