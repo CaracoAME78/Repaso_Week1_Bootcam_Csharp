@@ -34,7 +34,7 @@
 
         // Comprobar si un numero es par o Impar
         Console.WriteLine("=================================");
-        Console.WriteLine("   COMPROBAR PAR o IMPAR    ");
+        Console.WriteLine("   COMPROBAR PAR o IMPAR*    ");
         Console.WriteLine("=================================");
         Console.WriteLine("Ingrese el primer número:");
         int numero1 = Convert.ToInt32(Console.ReadLine());
