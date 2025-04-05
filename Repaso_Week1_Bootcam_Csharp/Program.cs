@@ -32,13 +32,7 @@
                 break;
         }
 
-        // Comprobar si un numero es par o Impar
-        Console.WriteLine("=================================");
-        Console.WriteLine("   COMPROBAR PAR o IMPAR*    ");
-        Console.WriteLine("=================================");
-        Console.WriteLine("Ingrese el primer número:");
-        int numero1 = Convert.ToInt32(Console.ReadLine());
-
+       
 
         // Establecer el maryor de tres numeros ingresados
 
@@ -70,6 +64,43 @@
         }
 
         Console.WriteLine("El número mayor es:"+ mayor);
+
+
+        // Calculo de Áreas 
+        int opcion;
+        double area;
+
+        Console.WriteLine("=================================");
+        Console.WriteLine("   CÁLCULO DE ÁREAS              ");
+        Console.WriteLine("=================================");
+        Console.WriteLine("1. Área del Círculo");
+        Console.WriteLine("2. Área del Cuadrado");
+        Console.Write("Seleccione una opción (1 o 2): ");
+        opcion = int.Parse(Console.ReadLine());
+
+        switch (opcion)
+        {
+            case 1:
+                Console.Write("Ingrese el radio del círculo: ");
+                double radio = double.Parse(Console.ReadLine());
+                area = Math.PI * Math.Pow(radio, 2);
+                Console.WriteLine($"El área del círculo es: {area:F2}");
+                break;
+
+            case 2:
+                Console.Write("Ingrese el lado del cuadrado: ");
+                double lado = double.Parse(Console.ReadLine());
+                area = Math.Pow(lado, 2);
+                Console.WriteLine($"El área del cuadrado es: {area:F2}");
+                break;
+
+            default:
+                Console.WriteLine("Opción no válida.");
+                break;
+        }
+
+        Console.WriteLine("Presione cualquier tecla para salir...");
+        Console.ReadKey();
 
     }
 }
