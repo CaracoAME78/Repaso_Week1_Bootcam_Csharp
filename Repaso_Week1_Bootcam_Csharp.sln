@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repaso_Week1_Bootcam_Csharp", "Repaso_Week1_Bootcam_Csharp\Repaso_Week1_Bootcam_Csharp.csproj", "{F9F18EBF-6CDB-44C2-9D57-35D0403EB459}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F9F18EBF-6CDB-44C2-9D57-35D0403EB459}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9F18EBF-6CDB-44C2-9D57-35D0403EB459}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9F18EBF-6CDB-44C2-9D57-35D0403EB459}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9F18EBF-6CDB-44C2-9D57-35D0403EB459}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D590A847-45B6-4D75-A503-7380C627C214}
+	EndGlobalSection
+EndGlobal
