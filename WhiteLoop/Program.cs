@@ -59,7 +59,27 @@
             fila1++;
         }
 
+        // Ejercicio 3 Bucle
 
+        int filas = 5;
+
+        for (int i = 1; i <= filas; i++)
+        {
+            // Imprimir asteriscos (5 - i)
+            for (int j = 1; j <= filas - i; j++)
+            {
+                Console.Write("*");
+            }
+
+            // Imprimir números del 1 hasta i
+            for (int k = 1; k <= i; k++)
+            {
+                Console.Write(k);
+            }
+
+            // Nueva línea
+            Console.WriteLine();
+        }
 
 
     }
