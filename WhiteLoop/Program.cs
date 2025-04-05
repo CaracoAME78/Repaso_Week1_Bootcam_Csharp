@@ -96,5 +96,19 @@
             Console.WriteLine(contadorDo);
             contadorDo++;
         }while (contadorDo <= 6);
+
+
+        // Ejemplo de bucle  tipo For
+       
+        for (int iFor = 1; iFor <= 10; iFor++)
+        {
+            Console.WriteLine("El valor del bucle for es : " + iFor);
+            for (int j = 0; j <= 1; j++)
+            {
+                Console.WriteLine(j+" ");
+            }
+        }
+
+        
     }
 }
