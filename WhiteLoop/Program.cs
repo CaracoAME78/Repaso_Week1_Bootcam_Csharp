@@ -62,23 +62,30 @@
         // Ejercicio 3 Bucle
 
         int filas = 5;
+        int i = 1;
 
-        for (int i = 1; i <= filas; i++)
+        while (i <= filas)
         {
-            // Imprimir asteriscos (5 - i)
-            for (int j = 1; j <= filas - i; j++)
+            int j = 1;
+
+            // Imprimir asteriscos
+            while (j <= filas - i)
             {
                 Console.Write("*");
+                j++;
             }
+
+            int k = 1;
 
             // Imprimir números del 1 hasta i
-            for (int k = 1; k <= i; k++)
+            while (k <= i)
             {
                 Console.Write(k);
+                k++;
             }
 
-            // Nueva línea
             Console.WriteLine();
+            i++;
         }
 
 
