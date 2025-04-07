@@ -1,4 +1,6 @@
-﻿internal class Program
+﻿using System.Timers;
+
+internal class Program
 {
     private static void Main(string[] args)
     {
@@ -109,6 +111,35 @@
             }
         }
 
-        
+        // 2. Challenge 
+        // el mismo ejemplo de bucle con For
+        Console.WriteLine("==============");
+        Console.WriteLine("  Challenge 2 ");
+        Console.WriteLine("==============");
+
+
+        // Bucle 1 
+        for (int filaC = 1; filaC <= 5; filaC++)
+        {
+            for (int columnaC = 1; columnaC <= 5; columnaC++)
+            {
+                Console.Write(columnaC + " ");
+            }
+            Console.WriteLine();
+        }
+        Console.WriteLine();
+
+        // Bucle 2
+        for (int filaC2 = 1; filaC2 <= 5; filaC2++)
+        {
+            for (int columnaC2 = 1; columnaC2 <= filaC2; columnaC2++)
+            {
+                Console.Write(columnaC2);
+            }
+            Console.WriteLine();
+        }
+
+        Console.WriteLine();
+
     }
 }
