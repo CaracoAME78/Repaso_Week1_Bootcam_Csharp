@@ -20,19 +20,20 @@
         Console.WriteLine("=================");
         Console.WriteLine("Dias de la Semana");
         string diaSemana = "Lunes";
-        switch (diaSemana) {
+        switch (diaSemana)
+        {
             case "Lunes":
                 Console.WriteLine("El dia es lunes.");
                 break;
             case "Martes":
                 Console.WriteLine("El dia es Martes.");
                 break;
-            default: 
+            default:
                 Console.WriteLine("No es un dia de semana.");
                 break;
         }
 
-       
+
 
         // Establecer el maryor de tres numeros ingresados
 
@@ -63,7 +64,7 @@
             mayor = numero3;
         }
 
-        Console.WriteLine("El número mayor es:"+ mayor);
+        Console.WriteLine("El número mayor es:" + mayor);
 
 
         // Calculo de Áreas 
@@ -93,7 +94,7 @@
                 Console.Write("Ingrese el ancho del rectangulo: ");
                 double ancho = double.Parse(Console.ReadLine());
 
-                area = lado*ancho;
+                area = lado * ancho;
                 Console.WriteLine($"El área del rectangulo es: {area:F2}");
                 break;
 
