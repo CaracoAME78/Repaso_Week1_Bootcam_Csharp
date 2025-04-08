@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repaso_Week1_Bootcam_Csharp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhiteLoop", "WhiteLoop\WhiteLoop.csproj", "{9C81A444-E161-4D7B-9D74-A20EBD00BBE9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week2_Arrays_Multi", "Week2_Arrays_Multi\Week2_Arrays_Multi.csproj", "{6F57CAA6-6377-4964-A9F5-B9F38925D7F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week2_Arrays_Uni", "Week2_Arrays_Uni\Week2_Arrays_Uni.csproj", "{B5D0EBC2-DF7A-40A9-A5A0-1528D206F73E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{9C81A444-E161-4D7B-9D74-A20EBD00BBE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C81A444-E161-4D7B-9D74-A20EBD00BBE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C81A444-E161-4D7B-9D74-A20EBD00BBE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F57CAA6-6377-4964-A9F5-B9F38925D7F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F57CAA6-6377-4964-A9F5-B9F38925D7F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F57CAA6-6377-4964-A9F5-B9F38925D7F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F57CAA6-6377-4964-A9F5-B9F38925D7F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5D0EBC2-DF7A-40A9-A5A0-1528D206F73E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5D0EBC2-DF7A-40A9-A5A0-1528D206F73E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5D0EBC2-DF7A-40A9-A5A0-1528D206F73E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5D0EBC2-DF7A-40A9-A5A0-1528D206F73E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
