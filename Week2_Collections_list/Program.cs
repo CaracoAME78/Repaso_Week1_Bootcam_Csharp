@@ -112,29 +112,29 @@
 
             // Crear una lista de personas para demostrar
             List<Persona> personas = new List<Persona>
-         {
-             new Persona { Nombre = "Carlos", Edad = 25, Dni  = "7163235"},
-             new Persona { Nombre = "María", Edad = 32, Dni  = "7163235" },
-             new Persona { Nombre = "Pedro", Edad = 17, Dni  = "7163235" },
-             new Persona { Nombre = "Laura", Edad = 42, Dni  = "7163235" },
-             new Persona { Nombre = "Miguel", Edad = 19, Dni  = "7163235" }
-         };
+             {
+                 new Persona { Nombre = "Carlos", Edad = 25, Dni  = "7163235"},
+                 new Persona { Nombre = "María", Edad = 32, Dni  = "7163235" },
+                 new Persona { Nombre = "Pedro", Edad = 17, Dni  = "7163235" },
+                 new Persona { Nombre = "Laura", Edad = 42, Dni  = "7163235" },
+                 new Persona { Nombre = "Miguel", Edad = 19, Dni  = "7163235" }
+             };
 
-           
+
 
             List<Libro> libros = new List<Libro>
-        {
-            new Libro { Nombre = "El principito", Precio = 25.99, Stock = 5 },
-            new Libro { Nombre = "El alquimista", Precio = 15.99, Stock = 12 },
-            new Libro { Nombre = "Cien años de soledad", Precio = 20.50, Stock = 3 },
-            new Libro { Nombre = "Don Quijote", Precio = 10.50, Stock = 15 },
-            new Libro { Nombre = "El túnel", Precio = 11.50, Stock = 8 },
-            new Libro { Nombre = "1984", Precio = 9.99, Stock = 20 },
-            new Libro { Nombre = "Crónica de una muerte anunciada", Precio = 13.49, Stock = 7 },
-            new Libro { Nombre = "El amor en los tiempos del cólera", Precio = 18.25, Stock = 11 },
-            new Libro { Nombre = "Rayuela", Precio = 22.99, Stock = 2 },
-            new Libro { Nombre = "La sombra del viento", Precio = 19.50, Stock = 14 }
-        };
+            {
+                new Libro { Nombre = "El principito", Precio = 25.99, Stock = 5 },
+                new Libro { Nombre = "El alquimista", Precio = 15.99, Stock = 12 },
+                new Libro { Nombre = "Cien años de soledad", Precio = 20.50, Stock = 3 },
+                new Libro { Nombre = "Don Quijote", Precio = 10.50, Stock = 15 },
+                new Libro { Nombre = "El túnel", Precio = 11.50, Stock = 8 },
+                new Libro { Nombre = "1984", Precio = 9.99, Stock = 20 },
+                new Libro { Nombre = "Crónica de una muerte anunciada", Precio = 13.49, Stock = 7 },
+                new Libro { Nombre = "El amor en los tiempos del cólera", Precio = 18.25, Stock = 11 },
+                new Libro { Nombre = "Rayuela", Precio = 22.99, Stock = 2 },
+                new Libro { Nombre = "La sombra del viento", Precio = 19.50, Stock = 14 }
+            };
 
             // Find - Encontrar la primera persona menor de 18 años
             Persona menor = personas.Find(p => p.Edad < 18);
@@ -166,7 +166,17 @@
 
             // Encontrar el indice del libro que empiece con "El"
             int indiceLibroEl = libros.FindIndex(l => l.Nombre.StartsWith("El"));
-            Console.WriteLine($"\nÍndice del primer libro que empieza con 'El': {indiceLibroEl}");
+
+            if (indiceLibroEl != -1)
+            {
+                Console.WriteLine($"\nÍndice del primer libro que empieza con 'El': {indiceLibroEl}");
+            }
+            else
+            {
+                Console.WriteLine($"No se encuentra");
+
+            }
+
 
         }
 
