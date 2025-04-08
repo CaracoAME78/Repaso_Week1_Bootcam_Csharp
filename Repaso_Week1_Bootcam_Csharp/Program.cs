@@ -105,5 +105,20 @@
         Console.WriteLine("Presione cualquier tecla para salir...");
         Console.ReadKey();
 
+        Console.WriteLine();
+
+        // Llamada de una funcion
+        int x, y;
+        x = 10;
+        y = 20;
+        int suma = add(x, y);
+        Console.WriteLine(suma);
+
+
+    }
+    public static int add(int a, int b)
+    {
+        int result = a + b;
+        return result;
     }
 }
