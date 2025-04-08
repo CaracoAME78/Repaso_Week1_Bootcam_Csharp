@@ -1,6 +1,4 @@
-﻿using System.Timers;
-
-internal class Program
+﻿internal class Program
 {
     private static void Main(string[] args)
     {
@@ -22,14 +20,14 @@ internal class Program
         while (contadorTabla <= 12)
         {
             resultado = valorTabla * contadorTabla;
-            Console.WriteLine("La tabla del numero : " + valorTabla+" es igual a "+valorTabla+" x "+ contadorTabla+" = "+resultado);
+            Console.WriteLine("La tabla del numero : " + valorTabla + " es igual a " + valorTabla + " x " + contadorTabla + " = " + resultado);
 
             contadorTabla++;
         }
 
         // Ejercicio Bucle anidado : Imprimir cuadrado de numeros del 1 al 5
 
-        int fila=1;
+        int fila = 1;
         int columna;
 
         while (fila <= 5)
@@ -37,7 +35,7 @@ internal class Program
             columna = 1;
             while (columna <= 5)
             {
-                Console.Write(columna+" ");
+                Console.Write(columna + " ");
                 columna++;
             }
             Console.WriteLine();
@@ -45,14 +43,14 @@ internal class Program
         }
 
         // Ejercicio 2 Bucle
-        
+
         int fila1 = 1;
         int columna1;
 
         while (fila1 <= 5)
         {
             columna1 = 1;
-            while (columna1 <= fila1 )
+            while (columna1 <= fila1)
             {
                 Console.Write(columna1);
                 columna1++;
@@ -97,17 +95,17 @@ internal class Program
         {
             Console.WriteLine(contadorDo);
             contadorDo++;
-        }while (contadorDo <= 6);
+        } while (contadorDo <= 6);
 
 
         // Ejemplo de bucle  tipo For
-       
+
         for (int iFor = 1; iFor <= 10; iFor++)
         {
             Console.WriteLine("El valor del bucle for es : " + iFor);
             for (int j = 0; j <= 1; j++)
             {
-                Console.WriteLine(j+" ");
+                Console.WriteLine(j + " ");
             }
         }
 
@@ -139,8 +137,8 @@ internal class Program
             Console.WriteLine();
         }
 
-        
+
     }
 
-   
+
 }
