@@ -69,8 +69,47 @@
                 Console.WriteLine();
             }
 
+            //Tarea 4 : El reto de buscar duplicados en un arreglo
+            // Contar los Duplicados
+            // Arreglo con los valores
+            int[] numeros = { 44, 44, 32, 32, 35 };
 
+            // Recorremos el arreglo con foreach para encontrar duplicados
+            int duplicados = 0;
 
+            // Usamos un arreglo para marcar los números ya verificados
+            bool[] yaContado = new bool[numeros.Length];
+
+            // Recorremos el arreglo con foreach
+            foreach (int numero in numeros)
+            {
+                // Evitamos contar los números ya marcados
+                int contador = 0;
+
+                // Comparamos el número actual con los siguientes números en el arreglo
+                foreach (int comparar in numeros)
+                {
+                    if (numero == comparar)
+                    {
+                        contador++; // Si encontramos una repetición, incrementamos el contador
+                    }
+                }
+
+                // Si el número tiene más de 1 aparición, lo consideramos un duplicado
+                if (contador > 1)
+                {
+                    // Contamos solo el primer duplicado
+                    if (!yaContado[Array.IndexOf(numeros, numero)])
+                    {
+                        Console.WriteLine($"El número {numero} se repite.");
+                        yaContado[Array.IndexOf(numeros, numero)] = true; // Marcamos como contado
+                        duplicados++;
+                    }
+                }
+            }
+
+            // Mostrar el total de duplicados
+            Console.WriteLine($"Total de números duplicados: {duplicados}");
         }
     }
 }
