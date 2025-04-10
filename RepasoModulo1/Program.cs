@@ -43,6 +43,11 @@
 
 
             // Patron 2
+            //         *
+            //        * *
+            //       * * *
+            //      * * * *
+            //     * * * * *
 
             int filasP = 5;  // Número de filas que queremos imprimir
 
@@ -63,6 +68,8 @@
                 // Nueva línea después de cada fila
                 Console.WriteLine();
             }
+
+
 
         }
     }
