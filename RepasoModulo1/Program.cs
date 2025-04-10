@@ -51,7 +51,7 @@
                 // Imprimir los espacios antes de los asteriscos
                 for (int j = 1; j <= filasP - i; j++)
                 {
-                    Console.Write("-");  // Espacios antes de los asteriscos
+                    Console.Write(" ");  // Espacios antes de los asteriscos
                 }
 
                 // Imprimir los asteriscos con espacio entre ellos
